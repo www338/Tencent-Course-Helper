@@ -1,0 +1,16 @@
+[
+    {
+        "name": "编译原理",
+        "weekday": 1,
+        "start": "10:00",
+        "duration": 120,
+        "url": "https://ke.qq.com/webcourse/xxxxxxxxxxxxxxxx"
+    },
+    {
+        "name": "Java 从入门到入狱",
+        "weekday": 2,
+        "start": "20:00",
+        "duration": 120,
+        "url": "https://ke.qq.com/webcourse/xxxxxxxxxxxxxxxx"
+    }
+]
