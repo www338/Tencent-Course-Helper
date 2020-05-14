@@ -1,0 +1,48 @@
+{
+  "name": "online-course-helper",
+  "description": "🐟",
+  "version": "0.0.2",
+  "main": "./app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist-mac": "electron-builder --mac",
+    "dist-win64": "electron-builder --win --x64",
+    "dist-win32": "electron-builder --win --ia32"
+  },
+  "author": "toubutu",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-packager": "^14.2.1",
+    "electron-builder": "^22.6.0"
+  },
+  "build": {
+    "appId": "priv.toubutu.onlinecourse",
+    "productName": "腾讯课堂助手",
+    "directories": {
+      "output": "./dist"
+    },
+    "mac": {
+      "icon": "./icon_mac.icns",
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "icon": "./icon_win.ico",
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "./icon_win.ico"
+    }
+  }
+}
