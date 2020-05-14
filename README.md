@@ -1,5 +1,8 @@
 # 网课助手使用指北 
 
+## 声明
+本软件完全免费，完全免费，完全免费，禁止拿去进行商业售卖，坑骗他人，如果觉得我辛苦可以翻到本页面最下面打赏一下。
+
 ## 下载&安装
 [Release](https://github.com/liuwenkiii/Tencent-Course-Helper/releases) 页面有 .exe 安装包，Mac 或 Linux 用户请 clone 本仓库自己动手打包。  
 下载后双击安装即可。
